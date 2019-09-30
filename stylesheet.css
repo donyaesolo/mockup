@@ -352,6 +352,12 @@ p {
     height: auto;
     width: 100%;
   }
+  .restrict-img-entry-right{
+    display: none;
+  }
+  .restrict-img-entry-left{
+    display: none;
+  }
   /* Make all right containers behave like the left ones */
   .right {left: 0%;}
   .icon{
@@ -366,7 +372,6 @@ p {
   .overlay-list{
     display: block;
   }
-  \
 }
 @media screen and (max-width: 500px) {
   .restrict-img{
