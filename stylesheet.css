@@ -5,7 +5,7 @@ body, html{
   margin: 0;
   padding: 0;
   width: 100%;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .body{
   background: rgba(37, 135, 209, .1);
@@ -196,11 +196,12 @@ li:first-child{
   }
 /*Card css*/
   .card {
+    overflow-y: hidden;
     background: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 5px;
     display: block;
-    height: 700px;
+    height: 600px;
     margin: 20px;
     overflow-x: hidden;
     transition: 0.3s;
@@ -311,6 +312,17 @@ p {
   color: #7A7A7A;
   font-family: nav-bar;
   font-size: 20px;
+}
+ol {
+  list-style: circle;
+  color: #7A7A7A;
+  font-family: nav-bar;
+}
+.list{
+  list-style: circle;
+  display: block;
+  font-size: 20px;
+  border: none;
 }
 .quote{
   font-size: 30px;
